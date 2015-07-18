@@ -3,3 +3,29 @@
 'fileTypes': [
   'quorum'
 ]
+'patterns': [
+  {
+    'include': '#strings'
+  }
+]
+'repository':
+  'strings':
+    'patterns': [
+      {
+        'begin': '"'
+        'beginCaptures':
+          '0':
+            'name': 'punctuation.definition.string.begin.quorum'
+        'end': '"'
+        'endCaptures':
+          '0':
+            'name': 'punctuation.definition.string.end.quorum'
+        'name': 'string.quoted.double.quorum'
+        'patterns': [
+          {
+            'match': '\\\\(x\\h{2}|[0-2][0-7]{0,2}|3[0-6][0-7]|37[0-7]?|[4-7][0-7]?|.)'
+            'name': 'constant.character.escape.quorum'
+          }
+        ]
+      }
+    ]
