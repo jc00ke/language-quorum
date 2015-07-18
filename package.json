@@ -1,0 +1,14 @@
+{
+  "name": "language-quorum",
+  "version": "0.0.0",
+  "description": "Quorum language support in Atom",
+  "engines": {
+    "atom": "*",
+    "node": "*"
+  },
+  "license": "MIT",
+  "repository": "https://github.com/jc00ke/language-quorum",
+  "devDependencies": {
+    "coffeelint": "^1.10.1"
+  }
+}
