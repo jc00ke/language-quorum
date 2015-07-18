@@ -1,0 +1,5 @@
+'name': 'Quorum'
+'scopeName': 'source.quorum'
+'fileTypes': [
+  'quorum'
+]
