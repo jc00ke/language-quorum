@@ -1,0 +1,5 @@
+class Grammar
+  action Main
+    return "asdf"
+  end
+end
